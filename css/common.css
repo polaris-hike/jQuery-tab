@@ -1,0 +1,34 @@
+.mob-tab .header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mob-tab .header .tab {
+    float: left;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: #ddd;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.mob-tab .header .tab.active {
+    background: #fff;
+}
+.mob-tab .header .tab:last-child {
+    border-right: 1px solid #ccc;
+}
+.mob-tab .content {
+    border: 1px solid #ccc; 
+    width: 300px;
+    height: 200px;
+    background: #fff;
+}
+.mob-tab .panel {
+    padding: 30px;
+    background: #fff;
+    display: none;
+}
+.mob-tab .panel.active {
+    display: block;
+}
